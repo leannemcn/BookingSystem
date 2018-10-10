@@ -11,35 +11,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Booking" />
+        android:text="Maryport Caravan Rental" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="123dp"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="184dp"
+        app:srcCompat="@drawable/21433258_1917898698536081_8726371458320205938_n" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="42dp"
-        android:layout_marginLeft="42dp"
-        android:layout_marginTop="264dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="login" />
+        android:layout_marginStart="185dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="12dp"
+        android:text="Login" />
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="146dp"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText2"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="47dp"
-        android:layout_marginBottom="-3dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="sign up" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="279dp"
+        android:layout_marginLeft="279dp"
+        android:layout_marginTop="12dp"
+        android:text="Register" />
+
 </RelativeLayout>
