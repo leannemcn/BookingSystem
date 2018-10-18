@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Booking System</string>
+    <string name = "booking_tab_open">Open Booking Tab</string>
+    <string name = "booking_tab_close">Close Booking Tab</string>
 </resources>
